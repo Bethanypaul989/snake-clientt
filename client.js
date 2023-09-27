@@ -13,7 +13,7 @@ const connect = function() {
 
   conn.on('connect', () => {
     console.log("Successfully connected to game server");
-    conn.write("Name: AK")
+    conn.write("Name: BMP")
   })
 
   // interpret incoming data as text
